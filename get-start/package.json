@@ -1,0 +1,27 @@
+{
+  "name": "official-tutorial",
+  "version": "0.14.6",
+  "description": "ES6 for official-tutorial",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets react src --watch --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cuitianze"
+  },
+  "keywords": [
+    "React",
+    "Tutorial",
+    "ES6"
+  ],
+  "author": "cuitianze",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
