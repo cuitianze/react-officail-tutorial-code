@@ -19836,13 +19836,14 @@
 	      }];
 
 	      var products = this.props.products;
+	      // var lastCategory2 = null;
 	      products.map(function (product, inx) {
-	        if (product.category !== lastCategory) {
-	          products.splice(inx, 0, { name: product.category });
-	        }
-	        products.push(product);
-	        product.key = inx;
-	        lastCategory = product.category;
+	        // if(product.category !== lastCategory2) {
+	        //   products.splice(inx, 0, {name: product.category});
+	        // }
+	        product.key = inx ? Math.random() : inx;
+	        // products.push(product);
+	        // lastCategory2 = product.category;
 	      });
 	      var data = products;
 
